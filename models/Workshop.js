@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
 const workshopSchema = new mongoose.Schema(
+  
   {
+
     title: { type: String, required: true },
     description: String,
     date: Date,
@@ -11,7 +13,9 @@ const workshopSchema = new mongoose.Schema(
       default: 'ACTIVE',
     },
   },
+
   { timestamps: true }
+
 );
 
 module.exports = mongoose.model('Workshop', workshopSchema);

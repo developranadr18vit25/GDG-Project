@@ -6,6 +6,7 @@ router.post('/', c.createWorkshop);
 router.get('/', c.listWorkshops);
 router.post('/:id/cancel', c.cancelWorkshop);
 
+
 router.post('/:id/register', r.register);
 router.get('/:id/registrations', r.listRegistrations);
 
