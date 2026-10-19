@@ -1,0 +1,9 @@
+{
+  "name": "mock-notification-service",
+  "version": "1.0.0",
+  "main": "mockServer.js",
+  "scripts": { "start": "node mockServer.js" },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
