@@ -2,7 +2,7 @@ const axios = require('axios');
 const Notification = require('../models/Notification');
 const { nextBackoff } = require('../utils/retry');
 
-const NOTIFY_URL = process.env.NOTIFY_URL || 'http://localhost:5000/notify';
+const NOTIFY_URL = process.env.NOTIFY_URL || 'http://localhost:6000/notify';
 const MAX_ATTEMPTS = 10;
 
 

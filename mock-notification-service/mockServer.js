@@ -46,5 +46,5 @@ app.post('/notify', (req, res) => {
   
 });
 
-const PORT = 5000;
+const PORT = 6000;
 app.listen(PORT, () => console.log(`Mock notification service on :${PORT}`));
